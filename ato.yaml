@@ -4,3 +4,4 @@ builds:
     entry: elec/src/spin-dev-board.ato:SpinDevBoard
 dependencies:
 - generics
+- lv2842xlvddcr

@@ -1,2 +1,44 @@
+import LV2842Kit from "lv2842xlvddcr/lv2842kit.ato"
+import SaleaeHeader from "saleae-header/saleae-header.ato"
+import XT30_Male_Right_Angle from "xt-connectors/xt-connectors.ato"
+import VDiv from "generics/vdivs.ato"
+import LowSideCurrentSensor from "low-side-current-sensor/low-side-current-sensor.ato"
+
+module _vdiv from VDiv:
+    r_bottom.value = 10kohm +/- 10%
+    r_top.value = 20kohm +/- 10%
+
+    r_bottom.package = "0402"
+    r_top.package = "0402"
+
 module SpinDevBoard:
-    signal gnd
+    buck = new LV2842Kit
+
+    saleae = new SaleaeHeader
+
+    input_connector = new XT30_Male_Right_Angle
+    output_connector = new XT30_Male_Right_Angle
+
+    input_current_sensor = new LowSideCurrentSensor
+    output_current_sensor = new LowSideCurrentSensor
+
+    # 20x gain, input max of 3V
+    input_current_sensor.shunt.value = 0.2ohm +/- 20%
+    output_current_sensor.shunt.value = 0.2ohm +/- 20%
+
+    # connect buck to connectors
+    input_connector.power ~ input_current_sensor.load_in; input_current_sensor.load_out ~ buck.power_in
+    output_connector.power ~ output_current_sensor.load_in; output_current_sensor.load_out ~ buck.power_out
+
+    # connect saleae to interesting signals (divided in 3 with vdiv)
+    ch1_div = new _vdiv
+    ch2_div = new _vdiv
+
+    ch1_div.in ~ buck.power_in
+    ch1_div.output ~ saleae.ch1
+
+    ch2_div.in ~ buck.power_out
+    ch2_div.output ~ saleae.ch2
+
+    saleae.ch3 ~ input_current_sensor.output
+    saleae.ch4 ~ output_current_sensor.output
