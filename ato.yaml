@@ -3,7 +3,7 @@ builds:
   default:
     entry: elec/src/spin-dev-board.ato:SpinDevBoard
 dependencies:
-- generics^V2.2.1
+- generics^v2.2.1
 - lv2842xlvddcr
 - regulators^2.0.4
 - low-side-current-sensor
