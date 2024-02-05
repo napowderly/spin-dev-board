@@ -115,7 +115,7 @@
     (tags "capacitor")
     (path "/77b58f0b-d4ab-1d3d-fa27-d54a67dfe0bd/77b58f0b-d4ab-1d3d-fa27-d54a67dfe0bd")
     (attr smd)
-    (fp_text reference "C2" (at 0 -1.85 180) (layer "F.SilkS")
+    (fp_text reference "C2" (at 0 -1.85 180) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1bc2becf-70e7-4ab7-9c7e-794f5ce855b8)
     )
@@ -211,7 +211,7 @@
     (tags "resistor")
     (path "/5d770533-f6e1-a6ab-a18d-bc37fdc630b0/5d770533-f6e1-a6ab-a18d-bc37fdc630b0")
     (attr smd)
-    (fp_text reference "R12" (at 0 -1.17 90) (layer "F.SilkS")
+    (fp_text reference "R12" (at 0 -1.17 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 54043eb5-2b7b-46d2-8e78-b36ddc890e0c)
     )
@@ -261,7 +261,7 @@
     (tags "resistor")
     (path "/064dfae1-5f18-7ca5-4b49-040ec6e640ef/064dfae1-5f18-7ca5-4b49-040ec6e640ef")
     (attr smd)
-    (fp_text reference "R14" (at 0 -1.17 -90) (layer "F.SilkS")
+    (fp_text reference "R14" (at 0 -1.17 -90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3c0b95d8-c929-4bc6-9cef-301f4706381f)
     )
@@ -311,7 +311,7 @@
     (tags "resistor")
     (path "/2c9a3ea4-a02a-b91e-a611-85691bbc1ce2/2c9a3ea4-a02a-b91e-a611-85691bbc1ce2")
     (attr smd)
-    (fp_text reference "R13" (at 0 -1.17 -90) (layer "F.SilkS")
+    (fp_text reference "R13" (at 0 -1.17 -90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a60481cb-4254-422a-ab33-1b2f2089b8d2)
     )
@@ -361,7 +361,7 @@
     (tags "capacitor")
     (path "/4f9ac2ec-6081-2187-6da6-05bf7fa1e13e/4f9ac2ec-6081-2187-6da6-05bf7fa1e13e")
     (attr smd)
-    (fp_text reference "C3" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C3" (at 0 -1.16) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 542f7daa-e3b0-4b4a-8958-61b27aeb85cf)
     )
@@ -409,7 +409,7 @@
     (at 152.249002 105.186682 -90)
     (path "/993a7397-6399-6e90-591c-366b48364361/993a7397-6399-6e90-591c-366b48364361")
     (attr smd)
-    (fp_text reference "U2" (at 0 -6.8 -90) (layer "F.SilkS")
+    (fp_text reference "U2" (at 0 -6.8 -90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 755feafa-8be9-42c0-b37e-d5c0e9ef71f7)
     )
@@ -479,7 +479,7 @@
     (tags "capacitor")
     (path "/bf9a3003-3ce9-549a-1232-05244d92d976/bf9a3003-3ce9-549a-1232-05244d92d976")
     (attr smd)
-    (fp_text reference "C5" (at 0 -1.16 180) (layer "F.SilkS")
+    (fp_text reference "C5" (at 0 -1.16 180) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b681b307-5c10-4793-90c8-1485b655629b)
     )
@@ -529,7 +529,7 @@
     (tags "resistor")
     (path "/2c0cda85-47b6-7de5-9e6d-a928f7af9ae7/2c0cda85-47b6-7de5-9e6d-a928f7af9ae7")
     (attr smd)
-    (fp_text reference "R4" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R4" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 88644a73-20d4-47ba-97a7-9bd807cc205c)
     )
@@ -577,7 +577,7 @@
     (at 133.721361 105.118639 -90)
     (path "/9a5f665c-0974-261a-97af-a30261cd9015/9a5f665c-0974-261a-97af-a30261cd9015")
     (attr smd)
-    (fp_text reference "L1" (at 0 -4 -90) (layer "F.SilkS")
+    (fp_text reference "L1" (at 0 -4 -90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d3635dfb-12b7-4f21-bb03-ecf477e8dd3c)
     )
@@ -613,7 +613,7 @@
     (tags "capacitor")
     (path "/ec31a00d-6c06-b8b1-30cb-66de86ee58a8/ec31a00d-6c06-b8b1-30cb-66de86ee58a8")
     (attr smd)
-    (fp_text reference "C1" (at 0 -1.85 180) (layer "F.SilkS")
+    (fp_text reference "C1" (at 0 -1.85 180) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d4d165f3-a4b9-42ec-9562-f25ec939fb94)
     )
@@ -663,7 +663,7 @@
     (tags "resistor")
     (path "/b4bbf8d4-2f61-8692-bbcd-e08fb5928252/b4bbf8d4-2f61-8692-bbcd-e08fb5928252")
     (attr smd)
-    (fp_text reference "R11" (at 0 -1.17 90) (layer "F.SilkS")
+    (fp_text reference "R11" (at 0 -1.17 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 49da0ddd-c307-47ee-a2a1-d84c130ea503)
     )
@@ -811,7 +811,7 @@
     (tags "resistor")
     (path "/d30e87fe-ff09-822f-6c26-72fbfa8ead73/d30e87fe-ff09-822f-6c26-72fbfa8ead73")
     (attr smd)
-    (fp_text reference "R8" (at 0 -1.17 -90) (layer "F.SilkS")
+    (fp_text reference "R8" (at 0 -1.17 -90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 90edba9c-5d2e-4b9e-ba60-084b97cfb2b2)
     )
@@ -859,7 +859,7 @@
     (at 135.739002 92.486682 180)
     (path "/45d96c67-9404-5541-e76d-f8099ea480b4/45d96c67-9404-5541-e76d-f8099ea480b4")
     (attr smd)
-    (fp_text reference "U6" (at 0 -4.95 180) (layer "F.SilkS")
+    (fp_text reference "U6" (at 0 -4.95 180) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 59476e20-6b74-4882-9768-3b13b9c356db)
     )
@@ -905,7 +905,7 @@
     (at 128.118104 104.33261 180)
     (path "/280d1b03-310e-557f-40c6-9899958fc9e2/280d1b03-310e-557f-40c6-9899958fc9e2")
     (attr smd)
-    (fp_text reference "DS1" (at 0 -4 180) (layer "F.SilkS")
+    (fp_text reference "DS1" (at 0 -4 180) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7c502e55-c42a-4390-b5ec-e9f2459f7c92)
     )
@@ -945,7 +945,7 @@
     (at 128.59 107.95 180)
     (path "/857550fc-8f93-84e9-ebc1-4caff7f72423/857550fc-8f93-84e9-ebc1-4caff7f72423")
     (attr smd)
-    (fp_text reference "U1" (at 0 -4.95 180) (layer "F.SilkS")
+    (fp_text reference "U1" (at 0 -4.95 180) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bec72caa-a44d-4af7-97de-b3d43b173468)
     )
@@ -993,7 +993,7 @@
     (tags "capacitor")
     (path "/96405ac1-d972-3072-70aa-0ca9062c3a9f/96405ac1-d972-3072-70aa-0ca9062c3a9f")
     (attr smd)
-    (fp_text reference "C4" (at 0 -1.16 -90) (layer "F.SilkS")
+    (fp_text reference "C4" (at 0 -1.16 -90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fa55af0d-372b-46f9-9934-b18fd77da3c7)
     )
@@ -1089,7 +1089,7 @@
     (tags "capacitor")
     (path "/d599ab0e-e230-5a91-bc38-6103d42f8c84/d599ab0e-e230-5a91-bc38-6103d42f8c84")
     (attr smd)
-    (fp_text reference "C6" (at 0 -1.16 -90) (layer "F.SilkS")
+    (fp_text reference "C6" (at 0 -1.16 -90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a4205ad1-6881-47e9-8d19-119a8b063f15)
     )
@@ -1139,7 +1139,7 @@
     (tags "resistor")
     (path "/3edfc6a2-ba87-f416-1524-87cb7d278dbf/3edfc6a2-ba87-f416-1524-87cb7d278dbf")
     (attr smd)
-    (fp_text reference "R1" (at 0 -1.17 -90) (layer "F.SilkS")
+    (fp_text reference "R1" (at 0 -1.17 -90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f36ece6d-56da-4496-b822-cbe5d42c353d)
     )
@@ -1189,7 +1189,7 @@
     (tags "resistor")
     (path "/8c1a8417-ea5e-5037-c51f-f188ef9a0ade/8c1a8417-ea5e-5037-c51f-f188ef9a0ade")
     (attr smd)
-    (fp_text reference "R9" (at 0 -1.65 90) (layer "F.SilkS")
+    (fp_text reference "R9" (at 0 -1.65 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 88f59da7-4268-4f41-97b8-e79033641237)
     )
@@ -1239,7 +1239,7 @@
     (tags "resistor")
     (path "/b0099729-8cd1-47df-6cb1-558678ddef8b/b0099729-8cd1-47df-6cb1-558678ddef8b")
     (attr smd)
-    (fp_text reference "R3" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R3" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b904558f-c2b1-499b-b861-a1212a9dcf35)
     )
@@ -1289,7 +1289,7 @@
     (tags "capacitor")
     (path "/40859d27-62e5-30a7-4335-3b21910b43a3/40859d27-62e5-30a7-4335-3b21910b43a3")
     (attr smd)
-    (fp_text reference "C7" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C7" (at 0 -1.16) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6bb6c1c2-dd1c-4ccf-a26b-e4158c7cec71)
     )
@@ -1339,7 +1339,7 @@
     (tags "resistor")
     (path "/ede2cbfb-3797-a2d5-442b-9384b9dc525a/ede2cbfb-3797-a2d5-442b-9384b9dc525a")
     (attr smd)
-    (fp_text reference "R7" (at 0 -1.17 -90) (layer "F.SilkS")
+    (fp_text reference "R7" (at 0 -1.17 -90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8b963358-88b6-4d2a-b7ab-aaa618c404e3)
     )
@@ -1389,7 +1389,7 @@
     (tags "resistor")
     (path "/2970a3eb-324a-e6f9-36c7-a7a12fb2d644/2970a3eb-324a-e6f9-36c7-a7a12fb2d644")
     (attr smd)
-    (fp_text reference "R5" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R5" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c7a35049-f73d-4f34-b539-faf25762fd87)
     )
@@ -1439,7 +1439,7 @@
     (tags "resistor")
     (path "/a3fb91db-0e47-f41a-39ee-e5b344a0dea3/a3fb91db-0e47-f41a-39ee-e5b344a0dea3")
     (attr smd)
-    (fp_text reference "R10" (at 0 -1.65 -90) (layer "F.SilkS")
+    (fp_text reference "R10" (at 0 -1.65 -90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5950a124-0040-4235-8f20-1ed6c15200da)
     )
@@ -1489,7 +1489,7 @@
     (tags "resistor")
     (path "/8b0e4291-55cc-41c6-95f0-33f82d0a965f/8b0e4291-55cc-41c6-95f0-33f82d0a965f")
     (attr smd)
-    (fp_text reference "R6" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R6" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a069132f-4c5c-4ad4-b480-d360d2077169)
     )
@@ -1625,7 +1625,7 @@
     (tags "resistor")
     (path "/7fcb60a8-91c0-b967-da62-df6c00c87ca8/7fcb60a8-91c0-b967-da62-df6c00c87ca8")
     (attr smd)
-    (fp_text reference "R2" (at 0 -1.17 -90) (layer "F.SilkS")
+    (fp_text reference "R2" (at 0 -1.17 -90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0a6b504f-d667-4f85-aa3d-7df5e1969450)
     )
@@ -1694,8 +1694,17 @@
     (stroke (width 0.1) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp d6648504-8f45-4127-8704-34acfec9c9a4))
   (gr_line (start 121.329002 134.076682) (end 153.329002 134.076682)
     (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp e1f36007-0f9d-4dc5-ae43-6b056652526f))
-  (gr_text "{{GITHASH}}" (at 120.930637 115.707681 90) (layer "F.SilkS") (tstamp d894e23f-c5ed-4336-947e-ac38e533f04c)
+  (gr_text "4.5-42V" (at 128.294906 133.55667 90) (layer "F.SilkS") (tstamp 00b1e156-59cf-4eee-a4c0-70e0256ae033)
+    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
+  )
+  (gr_text "TI LV2842 eval board" (at 119.593142 120.006955 90) (layer "F.SilkS") (tstamp bb1d1e84-2160-4c55-9c0f-480473c2d6d4)
+    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
+  )
+  (gr_text "{{GITHASH}}" (at 123.19 116.84 90) (layer "F.SilkS") (tstamp d894e23f-c5ed-4336-947e-ac38e533f04c)
     (effects (font (size 2 2) (thickness 0.1)) (justify left bottom))
+  )
+  (gr_text "8V" (at 128.43511 83.656461 90) (layer "F.SilkS") (tstamp fabc67f4-f76a-4b66-9c56-6f0a2e77a34d)
+    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
   )
 
   (segment (start 128.119002 98.836682) (end 131.929002 98.836682) (width 1) (layer "F.Cu") (net 1) (tstamp 0046e403-1dbb-4a62-ade1-0f460dd607f9))
@@ -1862,11 +1871,19 @@
   (segment (start 142.657909 88.676682) (end 142.478485 88.856106) (width 0.25) (layer "F.Cu") (net 12) (tstamp d7f8b048-eefc-42c1-969e-96659ee69932))
   (segment (start 144.629002 88.676682) (end 142.657909 88.676682) (width 0.25) (layer "F.Cu") (net 12) (tstamp e22f3eb1-5a3c-4508-b2c5-807c77485b2e))
   (segment (start 142.465672 88.843293) (end 142.478485 88.856106) (width 0.25) (layer "F.Cu") (net 12) (tstamp eac98340-d855-4ed8-9cde-cd0375464669))
+  (segment (start 146.997161 101.376682) (end 146.985843 101.365364) (width 0.25) (layer "F.Cu") (net 13) (tstamp 635cf733-e4b0-4127-a7cf-723c00401b1c))
+  (segment (start 149.449002 101.376682) (end 146.997161 101.376682) (width 0.25) (layer "F.Cu") (net 13) (tstamp f155374f-4b35-4431-b216-98ef3927771a))
   (segment (start 134.546361 97.489323) (end 134.546361 98.810767) (width 0.25) (layer "F.Cu") (net 14) (tstamp 224b1149-6e9f-4a25-81b7-e03ba2f76b0e))
   (segment (start 136.889002 93.436682) (end 136.889002 95.146682) (width 0.25) (layer "F.Cu") (net 14) (tstamp 2fc212c9-2c2f-4b58-adb6-250ce32edf06))
   (segment (start 136.889002 95.146682) (end 134.546361 97.489323) (width 0.25) (layer "F.Cu") (net 14) (tstamp 62965425-119e-4810-89b1-3c0062041607))
   (segment (start 139.638687 103.903093) (end 145.965843 103.903093) (width 0.25) (layer "F.Cu") (net 14) (tstamp c9ac256e-6f83-428a-9117-1eb22476f019))
   (segment (start 134.546361 98.810767) (end 139.638687 103.903093) (width 0.25) (layer "F.Cu") (net 14) (tstamp d5b26e10-2283-4234-bc87-71087b6dbfd2))
+  (segment (start 149.449002 103.916682) (end 146.999432 103.916682) (width 0.25) (layer "F.Cu") (net 15) (tstamp 1991cd8b-03a9-4bee-9df8-77de9b766561))
+  (segment (start 146.999432 103.916682) (end 146.985843 103.903093) (width 0.25) (layer "F.Cu") (net 15) (tstamp 21c1f575-67b6-4ad1-a89d-934d2d1efa3b))
+  (segment (start 147.001703 106.456682) (end 146.985843 106.440822) (width 0.25) (layer "F.Cu") (net 16) (tstamp 22b5456c-e511-497f-bf0c-37362b4eb4c7))
+  (segment (start 149.449002 106.456682) (end 147.001703 106.456682) (width 0.25) (layer "F.Cu") (net 16) (tstamp d1390f9f-6a3a-4e9c-8a41-9750999e9dd1))
+  (segment (start 149.449002 108.996682) (end 147.003974 108.996682) (width 0.25) (layer "F.Cu") (net 17) (tstamp 18bd1301-30a0-4d2c-8215-14e7999f2662))
+  (segment (start 147.003974 108.996682) (end 146.985843 108.978551) (width 0.25) (layer "F.Cu") (net 17) (tstamp 81ec5037-5270-4149-9e53-e0d6b2658b2c))
   (segment (start 128.952518 92.166682) (end 129.33152 91.78768) (width 0.25) (layer "F.Cu") (net 18) (tstamp 1f2db2e4-b07a-491e-bdcd-b9b758ef3046))
   (segment (start 127.999002 92.166682) (end 128.952518 92.166682) (width 0.25) (layer "F.Cu") (net 18) (tstamp 3946f6ed-c161-464d-9007-38aadfb88d0b))
   (segment (start 129.312067 91.768227) (end 129.33152 91.78768) (width 0.25) (layer "F.Cu") (net 18) (tstamp 5480e183-806a-45cb-b9ad-98d6d09f4efe))
