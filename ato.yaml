@@ -5,3 +5,4 @@ builds:
 dependencies:
 - generics
 - lv2842xlvddcr
+- regulators^2.0.3
